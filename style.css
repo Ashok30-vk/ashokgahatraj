@@ -11,6 +11,10 @@
 	background-size:cover ;
 	position:relative ;
 }
+.header img{
+	border-radius: 50%;
+
+}
 nav{
 	display:flex ;
 	padding:2% 6% ;
@@ -274,4 +278,97 @@ nav .fa{
 .fa-heart-o{
 	color: #f44336;
 
+}
+
+/*---------------About Me-----*/
+.sub-header{
+	height: 60vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4, 9, 30, 0.7)),url(images/about1.jpg);
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+}
+.about-us{
+	width: 80%;
+	margin: auto;
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
+.about-col{
+	flex-basis: 48%;
+	padding: 30px 2px;
+
+
+}
+.about-col img{
+	width: 100%;
+}
+.about-col h1{
+	padding-top: 0;
+}
+.about-col p{
+	padding: 15px 0 25px;
+}
+.red-btn{
+	border: 1px solid #f44336;
+	background: transparent;
+	color: #f44336;
+}
+.red-btn:hover{
+	color: #fff;
+}
+.info{
+	flex-basis: 35%;
+}
+.info h1{
+	background: #f44336;
+	color: #fff;
+	padding: 8px 0;
+	font-size: 18px;
+	margin-bottom: 21px;
+}
+.info h1:hover{
+	border: 1px solid #f44336;
+	background: #460D53 ;
+	transition: 1s;
+}
+.info div{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: #555;
+	padding: 15px;
+	box-sizing: border-box;
+}
+.info div:hover{
+	border: 1px solid #f44336;
+	background: #fff;
+	transition: 1s;
+}
+@media(max-width: 700px){
+	.info div{
+		font-size: 12px;
+	}
+}
+/*---comment----*/
+.comment{
+	border: 1px solid #ccc ;
+	margin: 50px 0;
+	padding: 10px 20px;
+}
+.comment h3{
+	text-align: left;
+}
+.comment input,.comment textarea{
+	width: 100%;
+	padding: 11px;
+	margin: 15px 0;
+	border: none;
+	outline: none;
+	background: #f0f0f0;
+}
+.comment button{
+	margin: 10px 0;
 }

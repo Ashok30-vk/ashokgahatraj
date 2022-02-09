@@ -15,6 +15,10 @@
 	border-radius: 50%;
 
 }
+.sub-header img{
+	border-radius: 50%;
+
+}
 nav{
 	display:flex ;
 	padding:2% 6% ;
@@ -372,3 +376,65 @@ nav .fa{
 .comment button{
 	margin: 10px 0;
 }
+.sub-header1{
+	height: 60vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4, 9, 30, 0.7)),url(images/contacts.jpg);
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+}
+.sub-header1 img{
+	border-radius: 50%;
+
+}
+.location{
+	width: 80%;
+	margin: auto;
+	padding: 80px 0;
+}
+.contact-me{
+	width: 80%;
+	margin: auto;
+}
+.contact-col{
+	flex-basis: 50%;
+	margin-bottom: 28px;
+}
+.contact-col div{
+	display: flex;
+	align-items: center;
+	margin-bottom: 38px;
+}
+.contact-col div .fa{
+	font-size: 30px;
+	color: #f44336;
+	margin: 11px;
+	margin-right: 29px;
+}
+.contact-col div p{
+	padding: 0;
+}
+.contact-col div h5{
+	font-size: 20px;
+	margin-bottom: 5px;
+	color: #555;
+	font-weight: 500;
+	box-sizing: border-box;
+}
+.sub-header2{
+	height: 60vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4, 9, 30, 0.7)),url(images/blog12.jpg);
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+}
+.sub-header2 img{
+	border-radius: 50%;
+
+}
+
+
